@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Timezone Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <div class="header">
+            <h1>🕐 Multi-Timezone Clock</h1>
+            <button id="darkModeBtn">🌙</button>
+        </div>
+
+        <!-- Add Timezone Section -->
+        <div class="add-timezone">
+            <select id="timezoneSelect">
+                <option value="">Select a timezone...</option>
+            </select>
+            <button id="addBtn">+ Add</button>
+        </div>
+
+        <!-- Clocks Container -->
+        <div class="clocks-container" id="clocksContainer">
+            <!-- Clocks will be added here dynamically -->
+        </div>
+
+        <!-- Reset Button -->
+        <div class="controls">
+            <button id="resetBtn">🔄 Reset to Default</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
